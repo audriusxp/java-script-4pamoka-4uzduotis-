@@ -13,7 +13,7 @@ function arSkaiciauTrysPenkiDesimtKartotinis(skaicius)
 { if ((skaicius %3===0)&& (skaicius % 5 === 0)&&(skaicius %10 === 0))
     { return true ;
     }
-  else ( (skaicius %3 >0)&&(skaicius %5 > 0)&&(skaicius % 10 >0)) 
+  else 
   {
     return false; 
  }
